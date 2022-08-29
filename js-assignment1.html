@@ -1,0 +1,34 @@
+<!-- Create a simple Program to build the Calculator in JavaScript using with HTML and CSS. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> JavaScript Calculator </title>
+
+    <link rel="stylesheet" href="./js-assignment1.css">
+    <script src="./js-assignment1.js"></script>
+</head>
+
+<body>
+    <div class="formstyle">
+        <form name="form1">
+            <input id="first_operand" class="calc" type="text" name="first_operand">
+            <input id="second_operand" class="calc" type="text" name="second_operand">
+
+            <!-- Display the calculator operator button on the screen. -->
+            <!-- onclick() function display the operation clicked by the user. -->
+            <input class="btn_input" type="button" value="C" onclick="clean()">
+            <input class="btn_input" type="button" value="+" onclick="addition()">
+            <input class="btn_input" type="button" value="-" onclick="subtraction()">
+            <input class="btn_input" type="button" value="*" onclick="multiplication()">
+            <input class="btn_input" type="button" value="/" onclick="divison()">
+            <input class="btn_input" type="button" value="%" onclick="modulus()">
+            <br> 
+            <br>
+            <label id="answer" for="answer"></label>
+
+        </form>
+    </div>
+</body>
+
+</html>
