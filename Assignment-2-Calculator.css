@@ -1,0 +1,38 @@
+.formstyle {
+    width: 20%;
+    height: 300px;
+    margin: auto;
+    border: 3px solid skyblue;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.btn_input {
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 6%;
+    margin: 2%;
+    font-size: 15px;
+}
+
+.btn_input_answer {    
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 6%;
+    margin: 2%;
+    font-size: 15px;
+}
+
+.calc {
+    width: 20%;
+    border: 3px solid black;
+    border-radius: 3px;
+    padding: 10%;
+    margin: 1%;
+}
