@@ -88,3 +88,10 @@ function answer_fn() {
     document.getElementById("answer").innerText = "Answer is:" + answer;
     document.getElementById("answer").style.color = "black";
 }
+
+
+function printName() {
+    name = "Mary";
+    name = "John";
+    console.log(name);
+  }

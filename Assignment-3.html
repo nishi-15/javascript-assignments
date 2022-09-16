@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+
+    <link type="text/css" rel="stylesheet" href="./Assignment-3.css">
+    <script type="text/javascript" src="./Assignment-3.js"></script>
+</head>
+
+<body>
+    <!-- To create and edit employee details -->
+    <table cellpadding="1" cellspacing="1">
+        <thead>
+            <title>Employee Details</title>
+        </thead>
+        <tbody>
+            <form onsubmit="event.preventDefault();onEmployeeDetailSubmit()">
+                <tr>
+                    <td><label for="Id">Id:</label></td>
+                    <td><input type="text" id="emp_id" name="emp_id" /></td>
+                </tr>
+                <tr>
+                    <td><label for="Name">Name:</label></td>
+                    <td><input type="text" id="emp_name" name="emp_name" /></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address:</label></td>
+                    <td><textarea id="emp_address" name="emp_address"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="designation">Designation</label></td>
+                    <td><input type="text" id="emp_designation" name="emp_designation" /></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="submit" value="Submit Details"></td>
+                    <td><input type="reset" value="Reset" onclick="reset()"></td>
+                </tr>
+            </form>
+        </tbody>
+    </table>
+
+    <br />
+    <!-- To list employee details in tabular format -->
+    <table class="emp_list" id="empList" border="1" cellpadding="1" cellspacing="1">
+        <thead>
+            <tr>
+                <th>Employee Id</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Designation</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+
+</html>
